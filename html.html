@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-lr87nPLSPkfbgzPbzWhbRh2UjMIL1bva6cq3MkZqPFG4hPwytdsucX3/eGLHfPEHZUL2Ua28aF0hb8RIQWgByQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+ 
+</head>
+<body>
+	<header class= "main-head">
+		
+		<nav class = "navbar">
+			<h2 class = "title">Inas </h2>
+			<span class ="nav-list">
+			<a href = "#opening" class="nav-item" id= "active"> Home</a>
+			<a href = "#service" class = "nav-item">Service</a>
+			<a href = "#gallery" class = "nav-item">Gallery</a>
+			<a href = "#about" class = "nav-item">Contact</a>
+			</span>
+			<span class="toggle_btn"><i class="fas fa-bars"></i></span>
+		</nav>
+		<div class="dropdown_menu">
+			<span class ="nav-list">
+			<a href = "#opening" class="nav-item"> Home</a>
+			<a href = "#service" class = "nav-item">Service</a>
+			<a href = "#gallery" class = "nav-item">Gallery</a>
+			<a href = "#about" class = "nav-item">Contact</a>
+			</span>
+		</div>
+		</header>
+
+
+		<script type="text/javascript">
+			const toggleBtn=document.querySelector('.toggle_btn')
+			const toggleBtnIcon=document.querySelector('.toggle_btn i')
+			const dropDownMenu=document.querySelector('.dropdown_menu')
+
+			toggleBtn.onclick = function(){
+				dropDownMenu.classList.toggle('open')
+				const isOpen = dropDownMenu.classList.contains('open')
+
+				toggleBtnIcon.classList = isOpen
+				? 'fas fa-xmark'
+				: 'fas fa-bars'
+			}
+		</script>
+
+
+
+	<section class = "opening" id="opening">
+
+
+		<div class = "img-cont">
+			<img src="img\pineforest.png" id = "hill5">		
+		</div>
+	</section>
+
+	<section class = accreditation>
+		
+	</section>
+
+	
+	<section class = "service" id = "service">
+		<div class = "desc-cont">
+			<h1 class = "desc">Our Services</h1>
+			<div class="line"></div>
+			<p class = "services-desc"><b>Kick back and unwind in our cozy living room, perfect for quality time with your family or friends. 
+			Watch your favorite shows or movies on our flat-screen TV, or simply enjoy each other's company in this welcoming space.</b></p>
+		</div>
+		
+		<div class="card-list-container">
+			<section class = "card-list">
+				<article class = "card" id = "scene">
+					<header class = "card-header">
+						<p>Scenic Views</p>
+						<h2>Mountain View</h2>
+					</header>
+						<header class = "card-header-hid">
+						<p> take a moment to relax, unwind, and fully immerse yourself in the serene and captivating experience of delighting in the picturesque mountain view</p>
+					</header>
+				</article>
+				<article class = "card" id="bathroom">
+					<header class = "card-header">
+						<p>Bathroom</p>
+						<h2>Toilette</h2>
+						<h2>Shower</h2>
+						
+					</header>
+						<header class = "card-header-hid">
+						<h2>Toilette</h2>
+						<p>Bidet</p>
+						<h2>Shower</h2>
+						<p>Hot Water</p>
+					</header>
+				</article>
+				<article class = "card" id="bedroom">
+					<header class = "card-header">
+						<p>Bedroom and Laundry</p>
+						<h2>2 Bedrooms</h2>
+						<h2>Laundry Items</h2>
+					</header>
+						<header class = "card-header-hid">
+						<h2>Bedrooms</h2>
+						<h3>Room 1</h3>
+						<ul>
+							<li>2 Single Beds</li>
+						</ul>
+						<h3>Room 2</h3>
+						<ul>
+							<li>1 Single Bed</li>
+							<li>1 Double Deck Bed</li>
+						</ul>
+						<h2>Items</h2>
+						<p>Hanger</p>
+						<p>Iron</p>
+					</header>
+				</article>
+				<article class = "card" id = "entertainment">
+					<header class = "card-header">
+						<p>Entertainment</p>
+						<h2>TV</h2>
+						<h2>Board Games</h2>
+					</header>
+						<header class = "card-header-hid">
+						<h2>TV</h2>
+						<p>Calbe</p>
+						<h2>Board Games</h2>
+						<p>Chess Board</p>
+						<p>Sungka</p>
+					</header>
+				</article>
+				<article class = "card" id = "internet">
+					<header class = "card-header">
+						<p>Internet and Office</p>
+						<h2>WIFI</h2>
+					</header>
+						<header class = "card-header-hid">
+						
+						<h2>Wifi Speed</h2>
+						<p>25MBPS</p>
+					</header>
+				</article>
+				<article class = "card" id="kitchen">
+					<header class = "card-header">
+						<p>Kitchen and Dining</p>
+						<h2>Kitchen</h2>
+						<h2>Refrigerator</h2>
+						<h2>Cooking Basics</h2>
+						<h2>Dishes and Silverware</h2>
+					</header>
+						<header class = "card-header-hid">
+					
+						<h2>Appliances</h2>
+						<p>Refrigerator</p>
+						<p>Electric Kettle</p>
+						<h2>Cooking  Basics</h2>
+						<p>Cooking Stove</p>
+						<p>Pans and Cooking Utensils</p>
+						<h2>Dishes and Silverware</h2>
+						<p>Plates</p>
+						<p>Spoons and Forks</p>
+					</header>
+				</article>
+				<article class = "card" id = "parking">
+					<header class = "card-header">
+						<p>Parking and facilities</p>
+						<h2>Free Parking</h2>
+						<h2>Smoking Area</h2>
+						<h2>Pet Friendly</h2>
+					</header>
+						<header class = "card-header-hid">
+						<p>Scenic Views</p>
+						<h2>Mountain View</h2>
+					</header>
+				</article>
+			</section>
+		</div>
+	</section>
+	<script type="text/javascript">
+				const cards = document.querySelectorAll('.card');
+
+				cards.forEach(function(card) {
+				  const hiddenCard = card.querySelector('.card-header-hid');
+				  const allHiddenCard = document.querySelectorAll('.card-header-hid');
+				  var isOpen = false;
+				  
+				  card.onclick = function() {
+
+				    allHiddenCard.forEach(hidden => {
+				    	if (hidden.style.display === "block" && hiddenCard !== hidden) {
+				    		hidden.style.display = "none";
+				    	}
+							});
+				    if(hiddenCard.style.display === "block"){
+				    	hiddenCard.style.display = "none";
+				    }else{
+				    	hiddenCard.style.display = "block";	
+				    }
+				    
+				    // if (isOpen == false) {
+				    // 	hiddenCard.style.display = "block";
+				    // 	isOpen = true;
+				    // }
+				    // else{
+				    // 	hiddenCard.style.display = "none";
+				    // 	isOpen = false;
+				    // }
+				    
+				  };
+				});
+	</script>
+
+
+	<div class = "gallery" id ="gallery">
+		<div class = "desc-cont">
+			<h1 class = "desc">Gallery</h1>
+			<div class="line-vert"></div>
+			<p class = "services-desc"><b>Please take a moment to gaze upon the captivating array of photographs showcasing the picturesque charm and utmost allure of our exquisitely designed and impeccably furnished transient abode.</b></p>
+		</div>
+		<div class = "photo-grid">
+
+					<div class = "card-tall"><img src="https://i.imgur.com/1xBdec5.jpg"  />
+					</div>
+
+					<div class = "photo"> <img src="https://i.imgur.com/Mj162ab.jpg"  />
+					</div>
+
+					<div class = "photo-tall" ><img src="https://i.imgur.com/KD9pStc.jpg"/>
+					</div>
+					<div class = "photo-wide" ><img src="https://i.imgur.com/T17xYC8.jpg" />
+					</div>
+					<div class = "photo-tall" ><img src="https://i.imgur.com/kYS3ua5.jpg" />
+					</div>
+					<div class = "photo-tall" ><img src="https://i.imgur.com/k8oHIyF.jpg" />
+					</div>
+					<div class = "photo-tall" ><img src="https://i.imgur.com/PvidMZD.jpg" />
+					</div>
+					<div class = "photo-tall" ><img src="https://i.imgur.com/rEkTV0v.jpg" />
+					</div>
+					<div class = "photo" ><img src="https://i.imgur.com/0rIzjue.jpg"/>
+					</div>
+					<div class = "photo-wide" ><img src="https://i.imgur.com/D7KY4im.jpg"/>
+					</div>
+					<div class = "photo-wide" ><img src="https://i.imgur.com/tYl87AN.jpg"/>
+					</div>
+					<div class = "photo-tall" ><img src="https://i.imgur.com/e42xq6T.jpg"/>
+					</div>
+					<div class = "photo" ><img src="https://i.imgur.com/rKWPtYq.jpg"/>
+					</div>
+
+
+					<div class = "photo-wide" ><img src="https://i.imgur.com/gmDfY0c.jpg"/>
+					</div>
+					<div class = "photo" ><img src="https://i.imgur.com/DhjXFEJ.jpg"/>
+					</div>
+					<div class = "photo" ><img src="https://i.imgur.com/N7TbMsb.jpg"/>
+					</div>
+
+
+
+
+
+
+
+					
+
+		</div>
+
+		</div>
+	<section class = "about" id ="about">
+		<div class="info">
+			<h1> Where to Find Us?</h2>
+			<p><i class="fas fa-map-marker-alt"></i>244S Purok 2 Lucnab Baguio City</p>
+			<div class = "loc-images-cont">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.376641929252!2d120.62654291486285!3d16.405686888673877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a794e27799ed%3A0xe66016e13854be81!2sINA&#39;S%20TRANSIENT%20HOUSE!5e0!3m2!1sen!2sph!4v1685431569582!5m2!1sen!2sph" width="100%" height="100%" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+			<a href=""><i class="fas fa-phone"></i>0998-467-9710</a>
+			<a href="https://www.facebook.com/InasTransient"><i class="fab fa-facebook"></i>InasTransient Page</a>
+			<a href="https://www.airbnb.com/rooms/29593736?source_impression_id=p3_1685607227_N1Rca6DhjhPyZLYT"><i class="fab fa-airbnb"></i>InasTransient AirBnB</a>
+
+		</div>
+	</section>
+		
+	
+</body>
+</html>
