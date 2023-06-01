@@ -1,0 +1,1 @@
+# inashomestay.com
