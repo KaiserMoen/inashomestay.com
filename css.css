@@ -168,6 +168,76 @@ a:hover{
 	color: #fff;
 }*/
 
+.int{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	
+	
+}
+.int-cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 10px;
+	padding: 30px;
+	background-image: url("img/tree.png");
+	background-size: cover;
+
+}
+.int-img{
+	background-image: url("https://images.unsplash.com/photo-1568846024024-4f8c4f6a940e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80");
+	background-size: cover;
+	height: 30vh;
+	width: 40%;
+	z-index: 3;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}	
+.int-info{
+		background-color: #fff;
+		height: 40vh;
+		width: 40%;
+		margin-left: -20px;
+		z-index: 2;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+		padding: 30px;
+		font-size: 100%;
+		color: #00000C;
+}
+.int-info h1{
+	color: #00000C;
+	text-align: center;
+	font-size: 80%;
+}
+ @media (max-width: 768px) {
+
+      /* Styles for mobile devices with screen width up to 768 pixels */
+     .int-img {
+        width: 300px;
+		height: 100px; /* Adjusted height for mobile devices */
+     }
+     .int-info{
+     	display: flex;
+     	justify-content: space-around;
+     	flex-direction: column;
+     	align-items: center;
+      	width: 250px;
+		height: 130px;
+		font-size: 40%;
+     }
+     .int-info b{
+     	text-align: center;
+     }
+     .int-info h1{
+      	font-size: 70%;
+     }
+  }
 .opening{
 	top: 0;	
 	position: relative;
