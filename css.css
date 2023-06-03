@@ -108,12 +108,14 @@ a:hover{
 	}
 	.dropdown_menu{
 		display: block;
+		background-color: rgba(0, 0, 0, 0.9);
 	}
 }
 @media(max-width: 576px){
 	.dropdown_menu{
 		left: 2rem;
 		width: unset;
+		background-color: rgba(0, 0, 0, 0.9);
 	}
 }
 .title{
@@ -178,7 +180,7 @@ a:hover{
 	
 }
 .int-cont{
-	
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
