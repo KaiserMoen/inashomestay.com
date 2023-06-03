@@ -173,17 +173,18 @@ a:hover{
 	justify-content: center;
 	align-items: center;
 
+
 	
 	
 }
 .int-cont{
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin: 10px 10px;
 	padding: 30px;
-	background-image: url("img/tree.png");
-	background-size: cover;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
 }
 .int-img{
